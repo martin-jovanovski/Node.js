@@ -1,5 +1,5 @@
 const http = require('http');
-var cowsay = require("cowsay");
+let cowsay = require("cowsay");
 
 
 const server = http.createServer((req, res) => {
